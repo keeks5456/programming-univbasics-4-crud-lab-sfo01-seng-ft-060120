@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["john", "jill", "jane", "jaime"]
-  array << "jack"
+  array.push("jack")
   p array
 end
 
